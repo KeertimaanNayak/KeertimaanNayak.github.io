@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Times New Roman;
+	font-color:"Pink";
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../o.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	background-position: center;
+}
+.main ul{
+	float:right;
+	list-style-type:none;
+	margin-top: 25px;
+	padding:0;
+	overflow:hidden;
+}
+.main ul li{
+	display: inline-block;
+}
+.main ul li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    background-color:transparent;
+    text-decoration: none;
+    font-size: 25px;
+}
+.main ul li a:hover{
+	background-color: #fff;
+	color:#111111;
+}
+.main ul li.active a{
+	background-color: #fff;
+	color:#111111;
+}
+.main{
+	width: 1500px;
+	margin:auto;
+}
+.title{
+	position: absolute;
+	top:10px;
+	left:60px;
+}
+.title h1{
+	font-size: 50px;
+	color:white;
+	background-color:transparent;
+	border:4px solid white;
+}
+.Copyrights footer{
+	background-color: #111111;
+	opacity:0.4;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+}
+.head h1{
+	position:absolute;
+	top:105px;
+	left:120px;
+	font-size: 40px;
+	background-color: brown;
+}
+.body ul{
+	position: absolute;
+	top:190px;
+	left: 150px;
+	font-size: 40px;
+	background-image: url('../pp.jpg');
+}
+.image1{
+	position: absolute;
+	top:475px;
+	left:300px;
+	opacity:0.5;
+}
+.image2{
+	position: absolute;
+	top:197px;
+	left:1000px;
+	opacity:0.7;
+}
+.quote{
+	position: absolute;
+	top: 625px;
+	left:600px;
+}
+.quote h2{
+	font-size: 30px;
+	font-family: Papyrus;
+	background-color: grey;
+}
