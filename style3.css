@@ -64,22 +64,27 @@ body{
 .Instagram{
 	position: absolute;
 	top:350px;
-	left:400px;
+	left:300px;
 }
 .Facebook{
 	position:absolute;
 	top:350px;
-	left:600px;
+	left:500px;
 }
 .Whatsapp{
 	position: absolute;
 	top:350px;
-	left:800px;
+	left:700px;
 }
 .Github{
 	position: absolute;
 	top:350px;
-	left:1000px;
+	left:900px;
+}
+.Linkedln{
+	position:absolute;
+	top:350px;
+	left:1100px;
 }
 .head h1{
 	position: absolute;
