@@ -5,7 +5,7 @@
 	font-color:"Pink";
 }
 body{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../pe.jpg');
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../i.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:100% 100%;
@@ -64,27 +64,27 @@ body{
 .Instagram{
 	position: absolute;
 	top:350px;
-	left:300px;
+	left:350px;
 }
 .Facebook{
 	position:absolute;
 	top:350px;
-	left:500px;
+	left:550px;
 }
 .Whatsapp{
 	position: absolute;
 	top:350px;
-	left:700px;
+	left:750px;
 }
 .Github{
 	position: absolute;
 	top:350px;
-	left:900px;
+	left:950px;
 }
 .Linkedln{
 	position:absolute;
 	top:350px;
-	left:1100px;
+	left:1150px;
 }
 .head h1{
 	position: absolute;
