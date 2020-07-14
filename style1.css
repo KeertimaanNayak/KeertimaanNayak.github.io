@@ -5,7 +5,7 @@
 	font-color:"Pink";
 }
 body{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../po.jpg');
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('po.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:100% 100%;
@@ -16,28 +16,26 @@ body{
 	list-style-type:none;
 	margin-top: 25px;
 	padding:0;
-	overflow:hidden;
 }
 .main ul li{
 	display: inline-block;
 }
 .main ul li a{
-	display: block;
     color: white;
     text-align: center;
     padding: 5px 20px;
-    border:1px solid transparent;
-    background-color:transparent;
     text-decoration: none;
+    transition: 0.2s;
     font-size: 25px;
 }
 .main ul li a:hover{
-	background-color: #fff;
-	color:#111111;
+	color:#255784;
+	background:#2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
 }
 .main ul li.active a{
-	background-color: #fff;
-	color:#111111;	
+	background-color: #2196f3;
+	color:#ffffff;
 }
 .main{
 	width: 1500px;
@@ -53,6 +51,15 @@ body{
 	color:white;
 	background-color:transparent;
 	border:4px solid white;
+	animation-name: example;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {font-size: 40px;}
+  to {font-size: 50px;}
 }
 .Copyrights footer{
 	background-color: #111111;
